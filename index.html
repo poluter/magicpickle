@@ -1,0 +1,676 @@
+<!DOCTYPE html><!--  Last Published: Thu Oct 03 2024 18:19:03 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="66ce2f3f9a9862037d8a4d6b" data-wf-site="66ce2f3f9a9862037d8a4c2e" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Magic Pickle - PICKLE</title>
+  <meta content="Magic Pickle - PICKLE" property="og:title">
+  <meta content="Magic Pickle - PICKLE" property="twitter:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/magicpickle.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Inconsolata:400,700","Changa One:400,400italic","Kirang Haerang:regular"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <style>
+.splide__sr {display: none !important;}
+.gallery-wp2024_gallery_item.is-active {opacity: 100%;}
+.gallery-wp2024_gallery_item, .header-wp2024_component {opacity: 0%;}
+</style>
+</head>
+<body class="body">
+  <div class="page-wrapper is-wp2024">
+    <div class="global-styles w-embed">
+      <style>
+/* Make text look crisper and more legible in all browsers */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+/* Focus state style for keyboard navigation for the focusable elements */
+*[tabindex]:focus-visible,
+  input[type="file"]:focus-visible {
+   outline: 0.125rem solid #4d65ff;
+   outline-offset: 0.125rem;
+}
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+/* Prevent all click and hover interaction with an element */
+.pointer-events-off {
+	pointer-events: none;
+}
+/* Enables all click and hover interaction with an element */
+.pointer-events-on {
+  pointer-events: auto;
+}
+/* Create a class of .div-square which maintains a 1:1 dimension of a div */
+.div-square::after {
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+/* Make sure containers never lose their center alignment */
+.container-medium,.container-small, .container-large {
+	margin-right: auto !important;
+  margin-left: auto !important;
+}
+/* 
+Make the following elements inherit typography styles from the parent and not have hardcoded values. 
+Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
+Uncomment this CSS to use it in the project. Leave this message for future hand-off.
+*/
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+/* Apply "..." after 3 lines of text */
+.text-style-3lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+/* Adds inline flex display */
+.display-inlineflex {
+  display: inline-flex;
+}
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+@media screen and (max-width: 991px) {
+    .hide, .hide-tablet {
+        display: none !important;
+    }
+}
+  @media screen and (max-width: 767px) {
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+}
+  @media screen and (max-width: 479px) {
+    .hide-mobile{
+      display: none !important;
+    }
+}
+.margin-0 {
+  margin: 0rem !important;
+}
+.padding-0 {
+  padding: 0rem !important;
+}
+.spacing-clean {
+padding: 0rem !important;
+margin: 0rem !important;
+}
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+</style>
+    </div>
+    <div class="page-styles w-embed">
+      <style>
+body {
+  overscroll-behavior: none;
+}
+@media screen and (max-width: 1210px) and (min-width: 992px) {
+.heading-wp2024.is-big {
+  font-size: 7rem;
+}
+}
+section, footer {
+  position: relative;
+  z-index: 1;
+  background-color: var(--wp-2024--neutral-dark);
+}
+::selection {
+  background-color: #146EF5;
+  color: #FDFDFD;
+}
+::-moz-selection {
+  background-color: #146EF5;
+  color: #FDFDFD;
+}
+::-webkit-selection {
+  background-color: #146EF5;
+  color: #FDFDFD;
+}
+.button-wp2024:hover .button-wp2024_icon {
+  top: -0.25rem;
+  right: -0.25rem;
+}
+.gallery-wp2024_lightbox-link:hover .gallery-wp2024_lightbox-image {
+  transform: scale(1.05);
+}
+.inscription-wp2024_component .icon-embed-small, .sponsor-wp2024_button .icon-embed-small {
+  position: relative;
+  z-index: 0;
+  top: 0rem;
+  right: 0rem;
+  transition: top 200ms ease, right 200ms ease;
+}
+.inscription-wp2024_component:hover .icon-embed-small, .sponsor-wp2024_button:hover .icon-embed-small {
+  top: -0.5rem;
+  right: -0.5rem;
+}
+.inscription-wp2024_component:hover .wp2024-overlay, .sponsor-wp2024_button:hover .wp2024-overlay {
+  opacity: 100%;
+}
+.square-wp2024 {
+  width: 2rem;
+  height: 2rem;
+  border: solid 1px var(--wp-2024--blue);
+  border-radius: 0.125rem;
+  background-color: rgba(20, 110, 245, 0.12);
+  opacity: 0.4;
+}
+</style>
+    </div>
+    <div data-animation="default" class="navbar-wp2024_component w-nav" data-easing2="ease" fs-scrolldisable-element="smart-nav" data-easing="ease" data-collapse="medium" data-w-id="e9848181-0b25-a940-b44d-5d8663497de9" role="banner" data-duration="400">
+      <div class="navbar-wp2024_container">
+        <div class="navbar-wp2024_menu-button w-nav-button">
+          <div class="menu-icon3">
+            <div class="menu-icon3_line-top"></div>
+            <div class="menu-icon3_line-middle"></div>
+            <div class="menu-icon3_line-bottom"></div>
+          </div>
+        </div>
+        <nav role="navigation" class="navbar-wp2024_menu w-nav-menu">
+          <a href="#" class="navbar-wp2024_link w-nav-link">YOU DON&#x27;T SEE THIS EVERY DAY</a>
+        </nav>
+        <div class="div-block-6">
+          <a data-luma-event-id="evt-YU5TinFLNCwjCGB" data-luma-action="checkout" href="#" target="_blank" class="button-wp2024 w-inline-block">
+            <div class="text-block-3">BUY ON UNISWAP</div>
+            <div class="button-wp2024_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 18 18" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                <path d="M4.38237 12.4016L10.5268 6.25717L5.7538 6.25717L5.7538 4.7574L13.0872 4.7574L13.0872 12.0908L11.5874 12.0908V7.31783L5.44303 13.4622L4.38237 12.4016Z" fill="currentColor"></path>
+              </svg></div>
+          </a>
+          <a href="https://t.me/MagicPickleETH" class="button-wp2024 _333 w-inline-block"><img src="images/telegram-icon.svg" loading="lazy" alt="" class="image-10"></a>
+        </div>
+      </div>
+    </div>
+    <main class="main-wrapper is-wp2024">
+      <header id="wwp-2024" class="section_header-wp2024">
+        <div class="padding-global">
+          <div class="div-block">
+            <div data-w-id="ea6b8dc1-308a-85e9-3803-7147eecd88a4" style="opacity:0" class="div-block-2"><img src="images/luxury_trendy_gold_3d_text_style_mockup-1.png" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 47vw, (max-width: 991px) 31vw, 47vw" srcset="images/luxury_trendy_gold_3d_text_style_mockup-1-p-500.png 500w, images/luxury_trendy_gold_3d_text_style_mockup-1-p-800.png 800w, images/luxury_trendy_gold_3d_text_style_mockup-1-p-1080.png 1080w, images/luxury_trendy_gold_3d_text_style_mockup-1-p-1600.png 1600w, images/luxury_trendy_gold_3d_text_style_mockup-1.png 1686w" alt="" class="image-5"><img src="images/Frame-2147223468.png" loading="lazy" alt="" class="image-6">
+              <a data-luma-event-id="evt-YU5TinFLNCwjCGB" data-luma-action="checkout" href="#" target="_blank" class="button-wp2024 w-inline-block">
+                <div class="text-block-3">BUY ON UNISWAP</div>
+                <div class="button-wp2024_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 18 18" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                    <path d="M4.38237 12.4016L10.5268 6.25717L5.7538 6.25717L5.7538 4.7574L13.0872 4.7574L13.0872 12.0908L11.5874 12.0908V7.31783L5.44303 13.4622L4.38237 12.4016Z" fill="currentColor"></path>
+                  </svg></div>
+              </a>
+            </div>
+            <div><img class="image" src="images/IMAGE-2024-10-03-17_27_51-12x.png" alt="" style="opacity:0" sizes="(max-width: 479px) 90vw, (max-width: 767px) 40vw, (max-width: 991px) 22vw, 34vw" data-w-id="626ff119-df6a-cbd6-c5ce-6b433ba9f4c5" loading="lazy" srcset="images/IMAGE-2024-10-03-17_27_51-12x-p-500.png 500w, images/IMAGE-2024-10-03-17_27_51-12x-p-800.png 800w, images/IMAGE-2024-10-03-17_27_51-12x.png 1024w"></div>
+          </div>
+        </div><img animate="header-decoration" class="header-wp2024_decoration" src="images/IMAGE-2024-10-03-17_27_51-12x.png" alt="" sizes="40vw" loading="lazy" srcset="images/IMAGE-2024-10-03-17_27_51-12x-p-500.png 500w, images/IMAGE-2024-10-03-17_27_51-12x-p-800.png 800w, images/IMAGE-2024-10-03-17_27_51-12x.png 1024w">
+      </header>
+      <section class="section_orga-wp2024">
+        <div class="padding-section-medium">
+          <div class="orga-wp2024_component">
+            <div data-w-id="30e76905-d5a7-26f6-00cc-c93578711ce8" style="opacity:0" class="div-block-3">
+              <a data-w-id="30e76905-d5a7-26f6-00cc-c93578711ce9" href="#" target="_blank" class="link-block inst w-inline-block"><img src="images/insta-icon.svg" loading="lazy" alt="" class="image-2"></a>
+              <a data-w-id="30e76905-d5a7-26f6-00cc-c93578711ceb" href="#" target="_blank" class="link-block discord w-inline-block"><img src="images/discord-icon.svg" loading="lazy" alt="" class="image-2"></a>
+              <a data-w-id="30e76905-d5a7-26f6-00cc-c93578711ced" href="#" target="_blank" class="link-block coingecko w-inline-block"><img src="images/gecko-icon.png" loading="lazy" alt="" class="image-2"></a>
+              <a data-w-id="30e76905-d5a7-26f6-00cc-c93578711cef" href="#" target="_blank" class="link-block twitter _1 w-inline-block"><img src="images/IMAGE-2024-10-03-17_27_51-12x.png" loading="lazy" sizes="(max-width: 479px) 10vw, (max-width: 991px) 3vw, 29.75px" srcset="images/IMAGE-2024-10-03-17_27_51-12x-p-500.png 500w, images/IMAGE-2024-10-03-17_27_51-12x-p-800.png 800w, images/IMAGE-2024-10-03-17_27_51-12x.png 1024w" alt="" class="image-2 _2222"></a>
+              <a data-w-id="30e76905-d5a7-26f6-00cc-c93578711cf1" href="#" target="_blank" class="link-block w-inline-block"><img src="images/socials-5-icon.svg" loading="lazy" alt="" class="image-2 etherscan"></a>
+              <a href="https://t.me/MagicPickleETH" target="_blank" class="link-block w-inline-block"><img src="images/telegram-icon.svg" loading="lazy" alt="" class="image-2"></a>
+              <a data-w-id="30e76905-d5a7-26f6-00cc-c93578711cf5" href="#" target="_blank" class="link-block twitter w-inline-block"><img src="images/twitter-icon.svg" loading="lazy" alt="" class="image-2"></a>
+              <a data-w-id="30e76905-d5a7-26f6-00cc-c93578711cf7" href="#" target="_blank" class="link-block medium w-inline-block"><img src="images/medium-icon.svg" loading="lazy" alt="" class="image-2"></a>
+              <a data-w-id="30e76905-d5a7-26f6-00cc-c93578711cf9" href="#" target="_blank" class="link-block dextools w-inline-block"><img src="images/dextools-icon.svg" loading="lazy" alt="" class="image-2"></a>
+              <a data-w-id="30e76905-d5a7-26f6-00cc-c93578711cfb" href="#" target="_blank" class="link-block m w-inline-block"><img src="images/m-icon-1.svg" loading="lazy" alt="" class="image-2"></a>
+              <a data-w-id="30e76905-d5a7-26f6-00cc-c93578711cfd" href="#" target="_blank" class="link-block reddit w-inline-block"><img src="images/reddit-icon.svg" loading="lazy" alt="" class="image-2"></a>
+              <a data-w-id="30e76905-d5a7-26f6-00cc-c93578711cff" href="#" target="_blank" class="link-block w-inline-block"><img src="images/twitter-2-icon.svg" loading="lazy" alt="" class="image-2"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-w-id="fe9a766b-165d-376d-6dba-84a8f73da96a" class="section">
+        <div class="div-block-7"><img src="images/Frame-2147223469.png" loading="lazy" style="-webkit-transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" sizes="100vw" alt="" srcset="images/Frame-2147223469.png 500w, images/Frame-2147223469.png 800w, images/Frame-2147223469.png 1080w, images/Frame-2147223469.png 1600w, images/Frame-2147223469.png 2000w, images/Frame-2147223469.png 2600w, images/Frame-2147223469.png 3200w, images/Frame-2147223469.png 4775w" class="image-11"></div>
+      </section>
+      <section id="programme" class="section_programme-wp2024">
+        <div id="about" class="padding-global padding-section-medium">
+          <div class="container-large"><img class="image-8" src="images/luxury_trendy_gold_3d_text_style_mockup-1_1.png" alt="" style="opacity:0" sizes="(max-width: 479px) 90vw, 40vw" data-w-id="94d15d84-40f3-6d7b-aeca-2af6df223400" loading="lazy" srcset="images/luxury_trendy_gold_3d_text_style_mockup-1_1-p-500.png 500w, images/luxury_trendy_gold_3d_text_style_mockup-1_1-p-800.png 800w, images/luxury_trendy_gold_3d_text_style_mockup-1_1-p-1080.png 1080w, images/luxury_trendy_gold_3d_text_style_mockup-1_1-p-1600.png 1600w, images/luxury_trendy_gold_3d_text_style_mockup-1_1-p-2000.png 2000w, images/luxury_trendy_gold_3d_text_style_mockup-1_1-p-2600.png 2600w, images/luxury_trendy_gold_3d_text_style_mockup-1_1.png 3000w">
+            <div class="spacer-xlarge">
+              <ul role="list" class="programme-wp2024_list">
+                <li animate="from-bottom" data-w-id="35fe5c61-f7f1-d842-9633-04bd8e198e83" style="opacity:0" class="programme-wp2024_item">
+                  <div class="programme-wp2024_content">
+                    <h3 class="text-size-large">In the years before humankind when the internet had yet to be captured and enslaved, the wild entity was to roam freely and frolic in the meadows. Cyber wizards at the time had formulated a way to extract the intent into a liquid vinegar element without doing it any harm. The extraction took 5000 years and resulted in only 750ml of 100% pure distilled internet vinegar. <br><br>The rarest and most valuable substance on earth.<br><br>I think we can guess what happens next...</h3>
+                  </div>
+                </li>
+              </ul>
+              <div class="divider"></div><img class="image-9" src="images/luxury_trendy_gold_3d_text_style_mockup-2.png" alt="" style="opacity:0" sizes="(max-width: 479px) 90vw, 30vw" data-w-id="a5b11ef5-5f4c-84a6-f6c6-e0d449dea718" loading="lazy" srcset="images/luxury_trendy_gold_3d_text_style_mockup-2-p-500.png 500w, images/luxury_trendy_gold_3d_text_style_mockup-2-p-800.png 800w, images/luxury_trendy_gold_3d_text_style_mockup-2-p-1080.png 1080w, images/luxury_trendy_gold_3d_text_style_mockup-2-p-1600.png 1600w, images/luxury_trendy_gold_3d_text_style_mockup-2-p-2000.png 2000w, images/luxury_trendy_gold_3d_text_style_mockup-2-p-2600.png 2600w, images/luxury_trendy_gold_3d_text_style_mockup-2.png 3185w">
+              <ul role="list" class="programme-wp2024_list"></ul>
+              <div data-w-id="ce178f1c-2e3a-1944-4993-b25213d28f50" style="opacity:0" class="div-block-4">
+                <div class="div-block-5">
+                  <h3 class="text-size-large _2222">BUY<br></h3>
+                  <h3 class="text-size-large _2222">0%<br></h3>
+                </div>
+                <div class="div-block-5">
+                  <h3 class="text-size-large _2222">SELL<br></h3>
+                  <h3 class="text-size-large _2222">0%<br></h3>
+                </div>
+                <div class="div-block-5">
+                  <h3 class="text-size-large _2222">SUPPLY<br></h3>
+                  <h3 class="text-size-large _2222">1.000.000<br></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <a animate="from-bottom" data-luma-action="checkout" data-luma-event-id="evt-YU5TinFLNCwjCGB" data-w-id="fe4a00ca-1be8-e5e5-cd15-f1a1c7855447" style="opacity:0" href="https://t.me/MagicPickleETH" target="_blank" class="inscription-wp2024_component w-inline-block">
+            <div class="inscription-wp2024_content-top"><img src="images/IMAGE-2024-10-03-17_27_51-12x.png" loading="lazy" sizes="(max-width: 479px) 100vw, 5vw" srcset="images/IMAGE-2024-10-03-17_27_51-12x-p-500.png 500w, images/IMAGE-2024-10-03-17_27_51-12x-p-800.png 800w, images/IMAGE-2024-10-03-17_27_51-12x.png 1024w" alt="" class="image-4">
+              <div class="icon-embed-small w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 32 32" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                  <path d="M7.78984 22.0457L18.7132 11.1223L10.2279 11.1223L10.2279 8.45608L23.2651 8.45608L23.2651 21.4932H20.5988L20.5988 13.008L9.67545 23.9313L7.78984 22.0457Z" fill="currentColor"></path>
+                </svg></div>
+            </div>
+            <div class="inscription-wp2024_content-bottom">
+              <h3 class="heading-wp2024 is-small">JOIN OUR COMMUNITY</h3>
+            </div>
+            <div class="wp2024-overlay"></div>
+          </a>
+        </div>
+      </section>
+      <section data-w-id="f296e07c-52ae-4562-8fbd-876309dab73c" class="section">
+        <div class="div-block-7"><img src="images/Frame-2147223469.png" loading="lazy" style="-webkit-transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" sizes="100vw" alt="" srcset="images/Frame-2147223469.png 500w, images/Frame-2147223469.png 800w, images/Frame-2147223469.png 1080w, images/Frame-2147223469.png 1600w, images/Frame-2147223469.png 2000w, images/Frame-2147223469.png 2600w, images/Frame-2147223469.png 3200w, images/Frame-2147223469.png 4775w" class="image-11"></div>
+      </section>
+      <section id="sponsors" class="section_sponsor-wp2024">
+        <div class="padding-global padding-section-medium htyhyhy">
+          <div class="container-large">
+            <h2 animate="from-bottom" class="heading-wp2024">Sponsors</h2>
+            <div class="spacer-large"></div>
+            <div animate="from-bottom" class="sponsor-wp2024_list">
+              <div id="w-node-_69c3a84d-325f-5b1b-da9a-6b3687e28227-7d8a4d6b" class="sponsor-wp2024_item is-you-logo">
+                <div class="sponsor-wp2024_logo w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 264 54" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                    <path d="M46.275 3H7.80833C5.15276 3 3 5.15276 3 7.80833V46.275C3 48.9306 5.15276 51.0833 7.80833 51.0833H46.275C48.9306 51.0833 51.0833 48.9306 51.0833 46.275V7.80833C51.0833 5.15276 48.9306 3 46.275 3Z" stroke="currentColor" fill="currentColor" fill-opacity="0.12" stroke-width="4.80833"></path>
+                    <path d="M80.1302 15.5417L86.0365 32.901L91.9271 15.5417H96.5052L88.2865 38.5417H83.3959L75.1771 15.5417H80.1302ZM103.427 38.9167C100.792 38.9271 98.625 38.0937 96.9271 36.4167C95.2396 34.7396 94.3907 32.5833 94.3802 29.9479C94.3802 28.2083 94.7657 26.651 95.5365 25.276C96.3073 23.901 97.3802 22.8385 98.7552 22.0885C100.13 21.3281 101.688 20.9479 103.427 20.9479C104.74 20.9479 105.958 21.1719 107.083 21.6198C108.219 22.0573 109.182 22.6719 109.974 23.4635C110.766 24.2448 111.385 25.1979 111.833 26.3229C112.292 27.4375 112.521 28.6458 112.521 29.9479C112.521 31.25 112.292 32.4583 111.833 33.5729C111.385 34.6875 110.766 35.6354 109.974 36.4167C109.182 37.1979 108.219 37.8125 107.083 38.2604C105.958 38.6979 104.74 38.9167 103.427 38.9167ZM98.8177 29.9479C98.8177 31.4479 99.2396 32.6667 100.083 33.6042C100.938 34.5312 102.052 34.9948 103.427 34.9948C104.813 34.9948 105.932 34.5312 106.786 33.6042C107.651 32.6667 108.083 31.4479 108.083 29.9479C108.083 28.4271 107.651 27.2031 106.786 26.276C105.932 25.3385 104.813 24.8698 103.427 24.8698C102.042 24.8698 100.922 25.3385 100.068 26.276C99.224 27.2135 98.8073 28.4375 98.8177 29.9479ZM115.818 38.5417V24.9323H112.786V21.3229H115.818V17.0729H120.021V21.3229H123.036V24.9323H120.021V38.5417H115.818ZM124.318 38.5417V21.3229H128.396V23.3385C128.885 22.5781 129.516 21.9948 130.286 21.5885C131.057 21.1719 131.922 20.9635 132.88 20.9635V24.9479C131.495 24.9271 130.422 25.3021 129.661 26.0729C128.901 26.8437 128.521 27.9323 128.521 29.3385V38.5417H124.318ZM142.115 38.9479C140.406 38.9583 138.87 38.5885 137.505 37.8385C136.151 37.0781 135.089 36.0104 134.318 34.6354C133.547 33.2604 133.161 31.6979 133.161 29.9479C133.161 28.2604 133.552 26.7292 134.333 25.3542C135.125 23.9687 136.203 22.8906 137.568 22.1198C138.932 21.349 140.443 20.9635 142.099 20.9635C144.943 20.9635 147.198 21.8958 148.865 23.7604C150.542 25.6146 151.24 28.026 150.958 30.9948H137.568C137.63 32.2969 138.094 33.3594 138.958 34.1823C139.823 34.9948 140.901 35.3958 142.193 35.3854C143.203 35.375 144.083 35.1302 144.833 34.651C145.594 34.1719 146.104 33.5573 146.365 32.8073H150.833C150.438 34.6302 149.438 36.1146 147.833 37.2604C146.229 38.3958 144.323 38.9583 142.115 38.9479ZM137.661 28.1042H146.521C146.406 27.0208 145.948 26.1406 145.146 25.4635C144.354 24.7865 143.38 24.4427 142.224 24.4323C141.089 24.4323 140.099 24.7708 139.255 25.4479C138.411 26.125 137.88 27.0104 137.661 28.1042ZM163.49 14.9792V38.5417H159.224V14.9792H163.49ZM174.333 38.9167C171.698 38.9271 169.531 38.0937 167.833 36.4167C166.146 34.7396 165.297 32.5833 165.286 29.9479C165.286 28.2083 165.672 26.651 166.443 25.276C167.214 23.901 168.286 22.8385 169.661 22.0885C171.036 21.3281 172.594 20.9479 174.333 20.9479C175.646 20.9479 176.865 21.1719 177.99 21.6198C179.125 22.0573 180.089 22.6719 180.88 23.4635C181.672 24.2448 182.292 25.1979 182.74 26.3229C183.198 27.4375 183.427 28.6458 183.427 29.9479C183.427 31.25 183.198 32.4583 182.74 33.5729C182.292 34.6875 181.672 35.6354 180.88 36.4167C180.089 37.1979 179.125 37.8125 177.99 38.2604C176.865 38.6979 175.646 38.9167 174.333 38.9167ZM169.724 29.9479C169.724 31.4479 170.146 32.6667 170.99 33.6042C171.844 34.5312 172.958 34.9948 174.333 34.9948C175.719 34.9948 176.839 34.5312 177.693 33.6042C178.557 32.6667 178.99 31.4479 178.99 29.9479C178.99 28.4271 178.557 27.2031 177.693 26.276C176.839 25.3385 175.719 24.8698 174.333 24.8698C172.948 24.8698 171.828 25.3385 170.974 26.276C170.13 27.2135 169.714 28.4375 169.724 29.9479ZM194.068 45.9479C191.797 45.9375 189.859 45.3802 188.255 44.276C186.651 43.1719 185.698 41.7448 185.396 39.9948H190.193C190.453 40.724 190.943 41.3021 191.661 41.7292C192.391 42.1667 193.25 42.3854 194.24 42.3854C195.438 42.3854 196.375 42.0677 197.052 41.4323C197.729 40.8073 198.068 39.9219 198.068 38.776L198.052 36.3542C197.396 37.1458 196.573 37.7656 195.583 38.2135C194.604 38.651 193.552 38.8698 192.427 38.8698C190.875 38.8698 189.484 38.4896 188.255 37.7292C187.026 36.9583 186.073 35.8906 185.396 34.526C184.719 33.151 184.38 31.599 184.38 29.8698C184.38 28.151 184.74 26.6094 185.458 25.2448C186.188 23.8698 187.172 22.8073 188.411 22.0573C189.661 21.3073 191.052 20.9375 192.583 20.9479C193.667 20.9375 194.672 21.1458 195.599 21.5729C196.526 22 197.323 22.6198 197.99 23.4323V21.3229H202.255V38.7292C202.255 41 201.536 42.7708 200.099 44.0417C198.661 45.3125 196.651 45.9479 194.068 45.9479ZM188.818 29.8698C188.818 31.3385 189.255 32.5677 190.13 33.5573C191.005 34.5469 192.094 35.0417 193.396 35.0417C194.708 35.0417 195.833 34.5469 196.771 33.5573C197.719 32.5573 198.198 31.3281 198.208 29.8698C198.219 28.4323 197.75 27.2187 196.802 26.2292C195.865 25.2292 194.74 24.7292 193.427 24.7292C192.125 24.7292 191.031 25.224 190.146 26.2135C189.26 27.1927 188.818 28.4115 188.818 29.8698ZM213.083 38.9167C210.448 38.9271 208.281 38.0937 206.583 36.4167C204.896 34.7396 204.047 32.5833 204.036 29.9479C204.036 28.2083 204.422 26.651 205.193 25.276C205.964 23.901 207.036 22.8385 208.411 22.0885C209.786 21.3281 211.344 20.9479 213.083 20.9479C214.396 20.9479 215.615 21.1719 216.74 21.6198C217.875 22.0573 218.839 22.6719 219.63 23.4635C220.422 24.2448 221.042 25.1979 221.49 26.3229C221.948 27.4375 222.177 28.6458 222.177 29.9479C222.177 31.25 221.948 32.4583 221.49 33.5729C221.042 34.6875 220.422 35.6354 219.63 36.4167C218.839 37.1979 217.875 37.8125 216.74 38.2604C215.615 38.6979 214.396 38.9167 213.083 38.9167ZM208.474 29.9479C208.474 31.4479 208.896 32.6667 209.74 33.6042C210.594 34.5312 211.708 34.9948 213.083 34.9948C214.469 34.9948 215.589 34.5312 216.443 33.6042C217.307 32.6667 217.74 31.4479 217.74 29.9479C217.74 28.4271 217.307 27.2031 216.443 26.276C215.589 25.3385 214.469 24.8698 213.083 24.8698C211.698 24.8698 210.578 25.3385 209.724 26.276C208.88 27.2135 208.464 28.4375 208.474 29.9479ZM230.552 38.5417V21.3229H234.833V38.5417H230.552ZM230.505 19.5104V15.151H234.974V19.5104H230.505ZM245.771 38.9167C243.115 38.9062 240.932 38.0625 239.224 36.3854C237.526 34.7083 236.672 32.5625 236.661 29.9479C236.672 27.3125 237.51 25.1562 239.177 23.4792C240.854 21.7917 243 20.9479 245.615 20.9479C247.969 20.9479 249.958 21.625 251.583 22.9792C253.219 24.3333 254.172 26.0885 254.443 28.2448H249.865C249.604 27.2448 249.083 26.4375 248.302 25.8229C247.521 25.1979 246.62 24.8906 245.599 24.901C244.245 24.901 243.151 25.3646 242.318 26.2917C241.495 27.2187 241.089 28.4375 241.099 29.9479C241.089 31.4583 241.51 32.6771 242.365 33.6042C243.219 34.5208 244.344 34.9792 245.74 34.9792C246.677 34.9792 247.526 34.7083 248.286 34.1667C249.047 33.6146 249.552 32.8906 249.802 31.9948H254.365C254.01 34.0781 253.047 35.7552 251.474 37.026C249.901 38.2969 248 38.9271 245.771 38.9167ZM256.302 38.5417V21.3229H260.583V38.5417H256.302ZM256.255 19.5104V15.151H260.724V19.5104H256.255Z" fill="white"></path>
+                  </svg></div>
+              </div>
+              <div id="w-node-_87e011c8-87c9-0ec5-f6eb-d1938783899f-7d8a4d6b" class="sponsor-wp2024_item is-middle">
+                <div class="sponsor-wp2024_logo w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 241 40" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M64.8012 0L44.3367 40.006H25.1147L33.6791 23.4258H33.2948C26.2293 32.5979 15.6873 38.6358 0.666626 40.006V23.6552C0.666626 23.6552 10.2757 23.0877 15.9246 17.1487H0.666626V0.000316005H17.815V14.1046L18.1999 14.103L25.2073 0.000316005H38.1762V14.0152L38.5611 14.0145L45.8314 0H64.8012Z" fill="currentColor"></path>
+                    <path d="M176.396 35.5901H181.918V3.88947H176.396V35.5901Z" fill="white"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M145.949 35.2664C147.15 35.7655 148.37 36.015 149.611 36.015C151.661 36.015 153.495 35.5159 155.114 34.5179C156.732 33.5199 157.986 32.1443 158.877 30.391C159.767 28.6242 160.212 26.6214 160.212 24.3826C160.212 22.1438 159.753 20.141 158.836 18.3743C157.919 16.6075 156.644 15.2386 155.013 14.2675C153.381 13.283 151.526 12.7975 149.449 12.811C148.128 12.811 146.86 13.0672 145.646 13.5797C144.432 14.0922 143.421 14.8205 142.611 15.7646C142.549 15.8364 142.488 15.909 142.429 15.9824V3.9097H136.886V35.5901H142.389L142.378 32.6305C142.52 32.805 142.672 32.9756 142.834 33.1423C143.711 34.0459 144.749 34.7539 145.949 35.2664ZM151.614 30.1482C150.71 30.7012 149.679 30.9776 148.519 30.9776C147.372 30.9776 146.32 30.6944 145.363 30.128C144.405 29.548 143.643 28.7591 143.077 27.7611C142.524 26.763 142.247 25.6301 142.247 24.3624C142.234 23.0946 142.504 21.9617 143.057 20.9637C143.623 19.9522 144.385 19.17 145.343 18.617C146.3 18.0506 147.359 17.7741 148.519 17.7876C149.679 17.7741 150.71 18.0438 151.614 18.5968C152.531 19.1363 153.232 19.9118 153.718 20.9233C154.217 21.9213 154.466 23.0677 154.466 24.3624C154.466 25.6571 154.217 26.8035 153.718 27.8015C153.232 28.7995 152.531 29.5818 151.614 30.1482Z" fill="white"></path>
+                    <path d="M72.8025 5.81134H79.1143L84.7604 26.4313L90.7669 5.81134H96.0267L102.541 26.0176L107.963 5.81134H113.748L105.211 35.5901H99.7693L93.1453 15.8504L87.0648 35.5901H81.5621L72.8025 5.81134Z" fill="white"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M123.069 36.1161C120.871 36.1296 118.888 35.6441 117.121 34.6595C115.368 33.6615 113.986 32.2791 112.974 30.5124C111.976 28.7456 111.477 26.7293 111.477 24.4635C111.477 22.2652 111.99 20.2759 113.015 18.4956C114.04 16.7154 115.429 15.3263 117.182 14.3282C118.935 13.3302 120.891 12.8312 123.049 12.8312C125.477 12.8312 127.601 13.3707 129.421 14.4496C131.256 15.5286 132.625 17.0593 133.528 19.0419C134.445 21.0109 134.776 23.27 134.519 25.819H117.191C117.239 26.8345 117.493 27.7583 117.951 28.5905C118.463 29.5076 119.178 30.2224 120.095 30.7349C121.012 31.2474 122.037 31.5036 123.17 31.5036C124.033 31.4901 124.836 31.3418 125.578 31.0586C126.319 30.7619 126.947 30.364 127.459 29.865C127.985 29.366 128.356 28.7995 128.572 28.1657H134.358C134.007 29.7166 133.306 31.099 132.254 32.3128C131.202 33.5132 129.88 34.4505 128.289 35.1248C126.697 35.7992 124.957 36.1296 123.069 36.1161ZM117.971 20.2557C117.648 20.8193 117.424 21.4262 117.299 22.0764H128.786C128.703 21.2549 128.449 20.5064 128.026 19.8308C127.54 19.0351 126.879 18.4215 126.043 17.9899C125.207 17.5448 124.263 17.3223 123.211 17.3223C122.091 17.3223 121.073 17.5785 120.156 18.091C119.239 18.6035 118.511 19.3251 117.971 20.2557Z" fill="white"></path>
+                    <path d="M164.278 13.2965C164.278 11.4893 164.689 9.88434 165.512 8.48172C166.335 7.06561 167.488 5.96644 168.971 5.1842C170.468 4.38848 172.215 3.97714 174.211 3.95016V8.86609C173.28 8.87958 172.485 9.07514 171.824 9.45276C171.176 9.81691 170.677 10.3496 170.327 11.0509C170.004 11.6966 169.83 12.4451 169.804 13.2965H174.09V17.9697H169.801V35.5901H164.278V17.9697H160.717V13.2965H164.278Z" fill="white"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M195.958 36.0756C193.706 36.0756 191.69 35.5834 189.909 34.5988C188.143 33.6008 186.753 32.2252 185.742 30.4719C184.744 28.7051 184.245 26.7023 184.245 24.4635C184.245 22.2112 184.744 20.2017 185.742 18.435C186.753 16.6547 188.143 15.2723 189.909 14.2878C191.69 13.3032 193.706 12.811 195.958 12.811C198.224 12.811 200.247 13.3032 202.027 14.2878C203.821 15.2723 205.217 16.648 206.215 18.4147C207.213 20.1815 207.719 22.1978 207.732 24.4635C207.719 26.7023 207.213 28.7051 206.215 30.4719C205.23 32.2252 203.841 33.6008 202.047 34.5988C200.254 35.5834 198.224 36.0756 195.958 36.0756ZM195.958 30.9979C197.145 30.9979 198.197 30.7281 199.114 30.1887C200.031 29.6357 200.739 28.867 201.238 27.8824C201.737 26.8844 201.987 25.7448 201.987 24.4635C201.987 23.1688 201.737 22.0224 201.238 21.0244C200.739 20.0264 200.031 19.2576 199.114 18.7182C198.197 18.1652 197.145 17.8887 195.958 17.8887C194.785 17.8887 193.74 18.1652 192.822 18.7182C191.919 19.2576 191.217 20.0264 190.718 21.0244C190.219 22.0224 189.977 23.1688 189.99 24.4635C189.99 25.7448 190.24 26.8844 190.739 27.8824C191.251 28.867 191.953 29.6357 192.843 30.1887C193.746 30.7281 194.785 30.9979 195.958 30.9979Z" fill="white"></path>
+                    <path d="M213.7 13.2965H207.55L214.206 35.5901H219.587L223.964 21.3512L228.69 35.5901H233.991L240.667 13.2965H235.103L231.318 27.1729L227.133 13.2965H221.752L217.587 27.4785L213.7 13.2965Z" fill="white"></path>
+                  </svg></div>
+              </div>
+              <div id="w-node-_6df4c84d-60cf-ffeb-731c-2bbbe8cf763e-7d8a4d6b" class="sponsor-wp2024_item is-you-logo">
+                <div class="sponsor-wp2024_logo w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 264 54" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                    <path d="M46.275 3H7.80833C5.15276 3 3 5.15276 3 7.80833V46.275C3 48.9306 5.15276 51.0833 7.80833 51.0833H46.275C48.9306 51.0833 51.0833 48.9306 51.0833 46.275V7.80833C51.0833 5.15276 48.9306 3 46.275 3Z" stroke="currentColor" fill="currentColor" fill-opacity="0.12" stroke-width="4.80833"></path>
+                    <path d="M80.1302 15.5417L86.0365 32.901L91.9271 15.5417H96.5052L88.2865 38.5417H83.3959L75.1771 15.5417H80.1302ZM103.427 38.9167C100.792 38.9271 98.625 38.0937 96.9271 36.4167C95.2396 34.7396 94.3907 32.5833 94.3802 29.9479C94.3802 28.2083 94.7657 26.651 95.5365 25.276C96.3073 23.901 97.3802 22.8385 98.7552 22.0885C100.13 21.3281 101.688 20.9479 103.427 20.9479C104.74 20.9479 105.958 21.1719 107.083 21.6198C108.219 22.0573 109.182 22.6719 109.974 23.4635C110.766 24.2448 111.385 25.1979 111.833 26.3229C112.292 27.4375 112.521 28.6458 112.521 29.9479C112.521 31.25 112.292 32.4583 111.833 33.5729C111.385 34.6875 110.766 35.6354 109.974 36.4167C109.182 37.1979 108.219 37.8125 107.083 38.2604C105.958 38.6979 104.74 38.9167 103.427 38.9167ZM98.8177 29.9479C98.8177 31.4479 99.2396 32.6667 100.083 33.6042C100.938 34.5312 102.052 34.9948 103.427 34.9948C104.813 34.9948 105.932 34.5312 106.786 33.6042C107.651 32.6667 108.083 31.4479 108.083 29.9479C108.083 28.4271 107.651 27.2031 106.786 26.276C105.932 25.3385 104.813 24.8698 103.427 24.8698C102.042 24.8698 100.922 25.3385 100.068 26.276C99.224 27.2135 98.8073 28.4375 98.8177 29.9479ZM115.818 38.5417V24.9323H112.786V21.3229H115.818V17.0729H120.021V21.3229H123.036V24.9323H120.021V38.5417H115.818ZM124.318 38.5417V21.3229H128.396V23.3385C128.885 22.5781 129.516 21.9948 130.286 21.5885C131.057 21.1719 131.922 20.9635 132.88 20.9635V24.9479C131.495 24.9271 130.422 25.3021 129.661 26.0729C128.901 26.8437 128.521 27.9323 128.521 29.3385V38.5417H124.318ZM142.115 38.9479C140.406 38.9583 138.87 38.5885 137.505 37.8385C136.151 37.0781 135.089 36.0104 134.318 34.6354C133.547 33.2604 133.161 31.6979 133.161 29.9479C133.161 28.2604 133.552 26.7292 134.333 25.3542C135.125 23.9687 136.203 22.8906 137.568 22.1198C138.932 21.349 140.443 20.9635 142.099 20.9635C144.943 20.9635 147.198 21.8958 148.865 23.7604C150.542 25.6146 151.24 28.026 150.958 30.9948H137.568C137.63 32.2969 138.094 33.3594 138.958 34.1823C139.823 34.9948 140.901 35.3958 142.193 35.3854C143.203 35.375 144.083 35.1302 144.833 34.651C145.594 34.1719 146.104 33.5573 146.365 32.8073H150.833C150.438 34.6302 149.438 36.1146 147.833 37.2604C146.229 38.3958 144.323 38.9583 142.115 38.9479ZM137.661 28.1042H146.521C146.406 27.0208 145.948 26.1406 145.146 25.4635C144.354 24.7865 143.38 24.4427 142.224 24.4323C141.089 24.4323 140.099 24.7708 139.255 25.4479C138.411 26.125 137.88 27.0104 137.661 28.1042ZM163.49 14.9792V38.5417H159.224V14.9792H163.49ZM174.333 38.9167C171.698 38.9271 169.531 38.0937 167.833 36.4167C166.146 34.7396 165.297 32.5833 165.286 29.9479C165.286 28.2083 165.672 26.651 166.443 25.276C167.214 23.901 168.286 22.8385 169.661 22.0885C171.036 21.3281 172.594 20.9479 174.333 20.9479C175.646 20.9479 176.865 21.1719 177.99 21.6198C179.125 22.0573 180.089 22.6719 180.88 23.4635C181.672 24.2448 182.292 25.1979 182.74 26.3229C183.198 27.4375 183.427 28.6458 183.427 29.9479C183.427 31.25 183.198 32.4583 182.74 33.5729C182.292 34.6875 181.672 35.6354 180.88 36.4167C180.089 37.1979 179.125 37.8125 177.99 38.2604C176.865 38.6979 175.646 38.9167 174.333 38.9167ZM169.724 29.9479C169.724 31.4479 170.146 32.6667 170.99 33.6042C171.844 34.5312 172.958 34.9948 174.333 34.9948C175.719 34.9948 176.839 34.5312 177.693 33.6042C178.557 32.6667 178.99 31.4479 178.99 29.9479C178.99 28.4271 178.557 27.2031 177.693 26.276C176.839 25.3385 175.719 24.8698 174.333 24.8698C172.948 24.8698 171.828 25.3385 170.974 26.276C170.13 27.2135 169.714 28.4375 169.724 29.9479ZM194.068 45.9479C191.797 45.9375 189.859 45.3802 188.255 44.276C186.651 43.1719 185.698 41.7448 185.396 39.9948H190.193C190.453 40.724 190.943 41.3021 191.661 41.7292C192.391 42.1667 193.25 42.3854 194.24 42.3854C195.438 42.3854 196.375 42.0677 197.052 41.4323C197.729 40.8073 198.068 39.9219 198.068 38.776L198.052 36.3542C197.396 37.1458 196.573 37.7656 195.583 38.2135C194.604 38.651 193.552 38.8698 192.427 38.8698C190.875 38.8698 189.484 38.4896 188.255 37.7292C187.026 36.9583 186.073 35.8906 185.396 34.526C184.719 33.151 184.38 31.599 184.38 29.8698C184.38 28.151 184.74 26.6094 185.458 25.2448C186.188 23.8698 187.172 22.8073 188.411 22.0573C189.661 21.3073 191.052 20.9375 192.583 20.9479C193.667 20.9375 194.672 21.1458 195.599 21.5729C196.526 22 197.323 22.6198 197.99 23.4323V21.3229H202.255V38.7292C202.255 41 201.536 42.7708 200.099 44.0417C198.661 45.3125 196.651 45.9479 194.068 45.9479ZM188.818 29.8698C188.818 31.3385 189.255 32.5677 190.13 33.5573C191.005 34.5469 192.094 35.0417 193.396 35.0417C194.708 35.0417 195.833 34.5469 196.771 33.5573C197.719 32.5573 198.198 31.3281 198.208 29.8698C198.219 28.4323 197.75 27.2187 196.802 26.2292C195.865 25.2292 194.74 24.7292 193.427 24.7292C192.125 24.7292 191.031 25.224 190.146 26.2135C189.26 27.1927 188.818 28.4115 188.818 29.8698ZM213.083 38.9167C210.448 38.9271 208.281 38.0937 206.583 36.4167C204.896 34.7396 204.047 32.5833 204.036 29.9479C204.036 28.2083 204.422 26.651 205.193 25.276C205.964 23.901 207.036 22.8385 208.411 22.0885C209.786 21.3281 211.344 20.9479 213.083 20.9479C214.396 20.9479 215.615 21.1719 216.74 21.6198C217.875 22.0573 218.839 22.6719 219.63 23.4635C220.422 24.2448 221.042 25.1979 221.49 26.3229C221.948 27.4375 222.177 28.6458 222.177 29.9479C222.177 31.25 221.948 32.4583 221.49 33.5729C221.042 34.6875 220.422 35.6354 219.63 36.4167C218.839 37.1979 217.875 37.8125 216.74 38.2604C215.615 38.6979 214.396 38.9167 213.083 38.9167ZM208.474 29.9479C208.474 31.4479 208.896 32.6667 209.74 33.6042C210.594 34.5312 211.708 34.9948 213.083 34.9948C214.469 34.9948 215.589 34.5312 216.443 33.6042C217.307 32.6667 217.74 31.4479 217.74 29.9479C217.74 28.4271 217.307 27.2031 216.443 26.276C215.589 25.3385 214.469 24.8698 213.083 24.8698C211.698 24.8698 210.578 25.3385 209.724 26.276C208.88 27.2135 208.464 28.4375 208.474 29.9479ZM230.552 38.5417V21.3229H234.833V38.5417H230.552ZM230.505 19.5104V15.151H234.974V19.5104H230.505ZM245.771 38.9167C243.115 38.9062 240.932 38.0625 239.224 36.3854C237.526 34.7083 236.672 32.5625 236.661 29.9479C236.672 27.3125 237.51 25.1562 239.177 23.4792C240.854 21.7917 243 20.9479 245.615 20.9479C247.969 20.9479 249.958 21.625 251.583 22.9792C253.219 24.3333 254.172 26.0885 254.443 28.2448H249.865C249.604 27.2448 249.083 26.4375 248.302 25.8229C247.521 25.1979 246.62 24.8906 245.599 24.901C244.245 24.901 243.151 25.3646 242.318 26.2917C241.495 27.2187 241.089 28.4375 241.099 29.9479C241.089 31.4583 241.51 32.6771 242.365 33.6042C243.219 34.5208 244.344 34.9792 245.74 34.9792C246.677 34.9792 247.526 34.7083 248.286 34.1667C249.047 33.6146 249.552 32.8906 249.802 31.9948H254.365C254.01 34.0781 253.047 35.7552 251.474 37.026C249.901 38.2969 248 38.9271 245.771 38.9167ZM256.302 38.5417V21.3229H260.583V38.5417H256.302ZM256.255 19.5104V15.151H260.724V19.5104H256.255Z" fill="white"></path>
+                  </svg></div>
+              </div>
+            </div>
+            <div class="spacer-large"></div><button data-w-id="42c7151f-b168-fff9-28fa-955e20d8a45d" aria-label="Ouvrir le formulaire pour sponsoriser l&#x27;événement" animate="from-bottom" class="sponsor-wp2024_button">
+              <div class="text-size-large">Sponsoriser l’évenement</div>
+              <div class="icon-embed-small w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 32 32" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                  <path d="M7.78984 22.0457L18.7132 11.1223L10.2279 11.1223L10.2279 8.45608L23.2651 8.45608L23.2651 21.4932H20.5988L20.5988 13.008L9.67545 23.9313L7.78984 22.0457Z" fill="currentColor"></path>
+                </svg></div>
+              <div class="wp2024-overlay"></div>
+            </button>
+          </div>
+        </div>
+      </section>
+      <div style="display:none" class="sponsor-wp2024_modal">
+        <div style="opacity:0;-webkit-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="sponsor-wp2024_modal-form-block w-form">
+          <form id="wf-form-Sponsor-WWP-2024" name="wf-form-Sponsor-WWP-2024" data-name="Sponsor WWP 2024" method="get" class="sponsor-wp2024_modal-form" data-wf-page-id="66ce2f3f9a9862037d8a4d6b" data-wf-element-id="453f0816-4073-5d61-f438-ec95e6001757">
+            <div class="heading-wp2024">Sponsoriser l&#x27;événement</div>
+            <div class="sponsor-wp2024_input-2col"><input class="sponsor-wp2024_input w-node-_06d0345e-3ea5-4af7-172d-6288220b3bb6-7d8a4d6b w-input" maxlength="256" name="Nom" data-name="Nom" placeholder="Nom" type="text" id="Nom" required=""><input class="sponsor-wp2024_input w-node-be351b65-609d-6fd7-2c85-fc13c1c571ff-7d8a4d6b w-input" maxlength="256" name="Prenom" data-name="Prenom" placeholder="Prénom" type="text" id="Prenom" required=""><input class="sponsor-wp2024_input w-node-_4bf4df32-8de9-7fd8-f194-b3c5b420402a-7d8a4d6b w-input" maxlength="256" name="Email" data-name="Email" placeholder="Email" type="email" id="Email" required=""><input class="sponsor-wp2024_input w-node-f61a0073-0982-5788-8bdf-2b9b05ef98c6-7d8a4d6b w-input" maxlength="256" name="Entreprise" data-name="Entreprise" placeholder="Entreprise" type="text" id="Entreprise" required=""><textarea placeholder="Message" maxlength="5000" id="Message" name="Message" data-name="Message" class="sponsor-wp2024_input is-text-area w-node-b2414ac2-c88f-4763-3a93-77476c512c3c-7d8a4d6b w-input"></textarea></div><button type="submit" class="button-wp2024">
+              <div>Envoyer la demande de sponsor</div>
+              <div class="button-wp2024_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 18 18" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                  <path d="M4.38237 12.4016L10.5268 6.25717L5.7538 6.25717L5.7538 4.7574L13.0872 4.7574L13.0872 12.0908L11.5874 12.0908V7.31783L5.44303 13.4622L4.38237 12.4016Z" fill="currentColor"></path>
+                </svg></div>
+            </button>
+          </form>
+          <div class="sponsor-wp2024_success w-form-done">
+            <div class="sponsor-wp2024_modal-form">
+              <div class="heading-wp2024">Nous avons bien reçu votre demande.</div>
+              <div class="sponsor-wp2024_success-form">
+                <p>Merci d&#x27;avoir soumis votre demande de sponsoring pour la Webflow Watch Party à Paris.<br><br>Nous vous contacterons prochainement pour vous donner plus de détails !</p>
+              </div>
+            </div>
+          </div>
+          <div class="form_message-error w-form-fail">
+            <div>Oups ! Un problème s&#x27;est produit lors de l&#x27;envoi du formulaire.</div>
+          </div>
+        </div>
+        <div aria-label="fermer la modal" role="button" data-w-id="aacab12f-8def-4aa8-50c2-13e59bead31c" style="opacity:0" class="sponsor-wp2024_modal-overlay"></div>
+      </div>
+      <section id="images" class="section_gallery-wp2024">
+        <div class="padding-global padding-section-medium jyjyj">
+          <div class="container-large">
+            <h2 animate="from-bottom" class="heading-wp2024">Retour sur l’édition 2023</h2>
+            <div class="spacer-large"></div>
+            <div animate="from-bottom" class="gallery-wp2024_component">
+              <div class="gallery-wp2024_testi-wrapper splide">
+                <div class="splide__track w-dyn-list">
+                  <div role="list" class="gallery-wp2024_testi-list splide__list w-dyn-items">
+                    <div role="listitem" class="gallery-wp2024_testi-item splide__slide w-dyn-item">
+                      <div class="gallery-wp2024_testi-author"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="48" height="48" alt="" class="gallery-wp2024_testi-author-image w-dyn-bind-empty">
+                        <div class="gallery-wp2024_testi-author-infos">
+                          <div class="text-weight-medium w-dyn-bind-empty"></div>
+                          <div class="text-color-neutral-wp2024 w-dyn-bind-empty"></div>
+                        </div>
+                      </div>
+                      <p class="text-size-medium w-dyn-bind-empty"></p>
+                      <a aria-label="Lien vers le post linkedin" href="#" class="gallery-wp2024_testi-link w-inline-block">
+                        <div class="icon-embed-xxsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 16 16" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                            <path d="M3.44 4.89001C4.24 4.89001 4.88 4.24001 4.88 3.45001C4.88 2.66001 4.23 2.01001 3.44 2.01001C2.65 2.01001 2 2.66001 2 3.45001C2 4.24001 2.65 4.89001 3.44 4.89001ZM6.25 5.98001V14H8.73V10.04C8.73 8.99001 8.93 7.98001 10.22 7.98001C11.51 7.98001 11.51 9.18001 11.51 10.1V14H14V9.60001C14 7.44001 13.54 5.78001 11.02 5.78001C9.81 5.78001 9 6.44001 8.67 7.07001H8.64V5.97001H6.26L6.25 5.98001ZM2.2 5.98001H4.69V14H2.2V5.98001Z" fill="currentColor"></path>
+                          </svg></div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="hide w-dyn-empty"></div>
+                </div>
+                <div id="w-node-_64721ac8-7fe9-ca70-22cb-f57e3f75a853-7d8a4d6b" class="splide__arrows"><button aria-label="Voir le testimonial précédent" class="splide__arrow splide__arrow--prev">
+                    <div class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 24 24" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                        <path d="M19.706 12.7921L8.11999 12.7921L12.62 17.2921L11.206 18.7061L4.29199 11.7921L11.206 4.87805L12.62 6.29205L8.11999 10.7921L19.706 10.7921L19.706 12.7921Z" fill="currentColor"></path>
+                      </svg></div>
+                  </button><button aria-label="Voir le testimonial suivant" class="splide__arrow splide__arrow--next">
+                    <div class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 24 24" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                        <path d="M4.29401 11.2079L15.88 11.2079L11.38 6.70795L12.794 5.29395L19.708 12.2079L12.794 19.1219L11.38 17.7079L15.88 13.2079L4.29401 13.2079L4.29401 11.2079Z" fill="currentColor"></path>
+                      </svg></div>
+                  </button></div>
+              </div>
+              <a href="#" id="w-node-fbc53fee-eca4-5bfd-cf21-e648b3664a63-7d8a4d6b" class="gallery-wp2024_lightbox-link w-inline-block w-lightbox"><img src="images/video-webflow-watch-party-paris-2023_1video-webflow-watch-party-paris-2023.webp" loading="lazy" width="1280" height="720" alt="thumbnail du récap vidéo de la WWP 2023" srcset="images/video-webflow-watch-party-paris-2023_1video-webflow-watch-party-paris-2023.webp 500w, images/video-webflow-watch-party-paris-2023_1video-webflow-watch-party-paris-2023.webp 800w, images/video-webflow-watch-party-paris-2023_1video-webflow-watch-party-paris-2023.webp 1080w, images/video-webflow-watch-party-paris-2023_1video-webflow-watch-party-paris-2023.webp 1280w" sizes="100vw" class="gallery-wp2024_lightbox-image">
+                <div class="icon-embed-medium z-index-2 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 47 32" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                    <g clip-path="url(#clip0_62_118)">
+                      <path d="M45.2172 4.99111C44.9561 4.02641 44.4469 3.14692 43.7403 2.44023C43.0336 1.73353 42.1541 1.22429 41.1894 0.9632C37.6577 0 23.4437 0 23.4437 0C23.4437 0 9.2289 0.0291555 5.69717 0.992356C4.73246 1.25346 3.85298 1.76273 3.14632 2.46946C2.43965 3.17619 1.93045 4.05571 1.66944 5.02044C0.601171 11.2956 0.186771 20.8576 1.69877 26.8818C1.95982 27.8465 2.46902 28.726 3.17569 29.4327C3.88235 30.1394 4.76182 30.6486 5.7265 30.9097C9.25824 31.8729 23.4726 31.8729 23.4726 31.8729C23.4726 31.8729 37.6869 31.8729 41.2184 30.9097C42.1831 30.6486 43.0626 30.1394 43.7693 29.4327C44.476 28.726 44.9853 27.8465 45.2463 26.8818C46.3731 20.5977 46.7203 11.0416 45.2172 4.99111Z" fill="#FF0000"></path>
+                      <path d="M18.9196 22.7663L30.7112 15.9364L18.9196 9.10657V22.7663Z" fill="#FDFDFD"></path>
+                    </g>
+                    <defs>
+                      <clippath id="clip0_62_118">
+                        <rect width="45.5111" height="32" fill="white" transform="translate(0.71106)"></rect>
+                      </clippath>
+                    </defs>
+                  </svg></div>
+                <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "url": "https://www.youtube.com/watch?v=aEX3e1HsgBg&autoplay=1",
+      "originalUrl": "https://www.youtube.com/watch?v=aEX3e1HsgBg&autoplay=1",
+      "width": 940,
+      "height": 528,
+      "thumbnailUrl": "https://i.ytimg.com/vi/aEX3e1HsgBg/hqdefault.jpg",
+      "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FaEX3e1HsgBg%3Ffeature%3Doembed%26autoplay%3D1&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DaEX3e1HsgBg&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FaEX3e1HsgBg%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&autoplay=1&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
+      "type": "video"
+    }
+  ],
+  "group": ""
+}</script>
+              </a>
+              <div id="w-node-f6ce7179-f434-d21f-7f36-a325cdf46158-7d8a4d6b" class="gallery-wp2024_gallery-wrapper splide">
+                <div class="splide__track w-dyn-list">
+                  <div role="list" class="gallery-wp2024_list splide__list w-dyn-items">
+                    <div role="listitem" class="gallery-wp2024_gallery_item splide__slide w-dyn-item"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="1500" height="1000" alt="" class="gallery-wp2024_gallery-image w-dyn-bind-empty"></div>
+                  </div>
+                  <div class="hide w-dyn-empty"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="inscription" class="section_inscription-wp2024">
+        <div class="inscription-wp2024_background"></div>
+      </section>
+    </main>
+    <footer id="socials" class="footer-wp2024_component">
+      <div class="padding-global padding-section-small _444"><img src="images/IMAGE-2024-10-03-17_27_51-3.png" loading="lazy" data-w-id="8120765b-d891-160d-9688-520d5d84b404" alt="" class="image-3">
+        <div data-w-id="aab7f2ea-17d8-aefb-b9d5-ca5527677f27" class="container-large">
+          <div class="footer-wp2024_content">
+            <div class="text-weight-medium">Magic Pickle</div>
+            <div data-w-id="74fd2323-971a-a729-7797-3dca5ac1096e" class="div-block-3">
+              <a data-w-id="74fd2323-971a-a729-7797-3dca5ac1096f" href="#" target="_blank" class="link-block inst w-inline-block"><img src="images/insta-icon.svg" loading="lazy" alt="" class="image-2"></a>
+              <a data-w-id="74fd2323-971a-a729-7797-3dca5ac10971" href="#" target="_blank" class="link-block discord w-inline-block"><img src="images/discord-icon.svg" loading="lazy" alt="" class="image-2"></a>
+              <a data-w-id="74fd2323-971a-a729-7797-3dca5ac10973" href="#" target="_blank" class="link-block coingecko w-inline-block"><img src="images/gecko-icon.png" loading="lazy" alt="" class="image-2"></a>
+              <a data-w-id="74fd2323-971a-a729-7797-3dca5ac10975" href="#" target="_blank" class="link-block twitter _1 w-inline-block"><img src="images/IMAGE-2024-10-03-17_27_51-12x.png" loading="lazy" sizes="(max-width: 479px) 10vw, (max-width: 991px) 3vw, 29.75px" srcset="images/IMAGE-2024-10-03-17_27_51-12x-p-500.png 500w, images/IMAGE-2024-10-03-17_27_51-12x-p-800.png 800w, images/IMAGE-2024-10-03-17_27_51-12x.png 1024w" alt="" class="image-2 _2222"></a>
+              <a data-w-id="74fd2323-971a-a729-7797-3dca5ac10977" href="#" target="_blank" class="link-block w-inline-block"><img src="images/socials-5-icon.svg" loading="lazy" alt="" class="image-2 etherscan"></a>
+              <a href="https://t.me/MagicPickleETH" target="_blank" class="link-block w-inline-block"><img src="images/telegram-icon.svg" loading="lazy" alt="" class="image-2"></a>
+              <a data-w-id="74fd2323-971a-a729-7797-3dca5ac1097b" href="#" target="_blank" class="link-block twitter w-inline-block"><img src="images/twitter-icon.svg" loading="lazy" alt="" class="image-2"></a>
+              <a data-w-id="74fd2323-971a-a729-7797-3dca5ac1097d" href="#" target="_blank" class="link-block medium w-inline-block"><img src="images/medium-icon.svg" loading="lazy" alt="" class="image-2"></a>
+              <a data-w-id="74fd2323-971a-a729-7797-3dca5ac1097f" href="#" target="_blank" class="link-block dextools w-inline-block"><img src="images/dextools-icon.svg" loading="lazy" alt="" class="image-2"></a>
+              <a data-w-id="74fd2323-971a-a729-7797-3dca5ac10981" href="#" target="_blank" class="link-block m w-inline-block"><img src="images/m-icon-1.svg" loading="lazy" alt="" class="image-2"></a>
+              <a data-w-id="74fd2323-971a-a729-7797-3dca5ac10983" href="#" target="_blank" class="link-block reddit w-inline-block"><img src="images/reddit-icon.svg" loading="lazy" alt="" class="image-2"></a>
+              <a data-w-id="74fd2323-971a-a729-7797-3dca5ac10985" href="#" target="_blank" class="link-block w-inline-block"><img src="images/twitter-2-icon.svg" loading="lazy" alt="" class="image-2"></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="footer-wp2024_link">All Rights Reserved.</a>
+      </div>
+    </footer>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=66ce2f3f9a9862037d8a4c2e" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!--  GSAP Animation  -->
+  <script>
+let typeSplit = new SplitType('[animate="h1"]', {
+  types: 'lines',
+  tagName: 'span'
+});
+gsap.to('.header-wp2024_component', {
+  opacity: 1,
+  duration: 0.2,
+  ease: 'power1.out',
+  stagger: 0.1,
+});
+gsap.from('[animate="h1"] .line', {
+  y: '100%',
+  opacity: 0,
+  duration: 0.5,
+  ease: 'power1.out',
+  stagger: 0.1,
+});
+gsap.from('[animate="header-item"]', {
+  y: '1rem',
+  opacity: 0,
+  duration: 0.3,
+  ease: 'power1.out',
+  stagger: 0.3, 
+});
+gsap.from('[animate="header-decoration"]', {
+  opacity: 0,
+  duration: 3,
+  ease: 'power1.out',  
+});
+gsap.from('.orga-wp2024_item', {
+  opacity: 0,
+  y: '1rem',
+  duration: 0.5,
+  ease: 'power1.out',
+  stagger: 0.1,
+  scrollTrigger: {
+    trigger: '.orga-wp2024_component',
+    start: 'top 80%',
+  }
+});
+gsap.utils.toArray('[animate="from-bottom"]').forEach(item => {
+  gsap.from(item, {
+    opacity: 0,
+    y: '1rem',
+    duration: 0.5,
+    ease: 'power1.out',
+    scrollTrigger: {
+      trigger: item,
+      start: 'top 80%',
+    }
+  });
+});
+</script>
+  <!--  Slider with SplideJS  -->
+  <script>
+function galleryTesti() { 
+  let splides = $('.gallery-wp2024_testi-wrapper');
+  for ( let i = 0, splideLength = splides.length; i < splideLength; i++ ) {
+    new Splide( splides[ i ], {
+      type: 'loop',
+      gap: '1rem',
+      autoWidth: true,
+      arrows: true,
+      pagination: false,
+      drag: true,
+    }).mount();
+  }
+}
+galleryTesti();
+function galleryImg() { 
+  let splides = $('.gallery-wp2024_gallery-wrapper');
+  for ( let i = 0, splideLength = splides.length; i < splideLength; i++ ) {
+    new Splide( splides[ i ], {
+      type: 'fade',
+      gap: '0rem',
+      autoWidth: true,
+      arrows: false,
+      pauseOnHover: false,
+      pagination: false,
+      drag: false,
+      rewind: true,
+      autoplay: true,
+      interval: 1500,
+    }).mount();
+  }
+}
+galleryImg();
+</script>
+  <!--  Block Animation  -->
+  <script>
+document.addEventListener('DOMContentLoaded', () => {
+  const canvas = document.querySelector('.inscription-wp2024_canvas');
+  if (!canvas) return;
+  const createSquare = () => {
+    const square = document.createElement('div');
+    square.className = 'square-wp2024';
+    return square;
+  };
+  const setupSquareInteraction = (square) => {
+    let timeoutId;
+    square.addEventListener('mouseenter', () => {
+      if (timeoutId) clearTimeout(timeoutId);
+      gsap.to(square, {
+        duration: 0.1,
+        opacity: 1,
+        borderColor: "#FF6B00",
+        backgroundColor: "rgba(255, 107, 0, 0.12)",
+        ease: "none"
+      });
+    });
+    square.addEventListener('mouseleave', () => {
+      timeoutId = setTimeout(() => {
+        gsap.to(square, {
+          duration: 0.2,
+          opacity: 0.4,
+          borderColor: "#146EF5",
+          backgroundColor: "rgba(20, 110, 245, 0.12)",
+          ease: "none"
+        });
+      }, 1500);
+    });
+  };
+  const fillCanvas = () => {
+    canvas.innerHTML = '';
+    const canvasWidth = canvas.offsetWidth;
+    const canvasHeight = canvas.offsetHeight;
+    const squareSize = 2 * 16;
+    const gap = 0.25 * 16;
+    const totalSize = squareSize + gap;
+    const columns = Math.floor(canvasWidth / totalSize);
+    const rows = Math.floor(canvasHeight / totalSize);
+    const totalSquares = columns * rows;
+    const fragment = document.createDocumentFragment();
+    for (let i = 0; i < totalSquares; i++) {
+      const square = createSquare();
+      setupSquareInteraction(square);
+      fragment.appendChild(square);
+    }
+    canvas.appendChild(fragment);
+  };
+  fillCanvas();
+  window.addEventListener('resize', fillCanvas);
+});
+</script>
+</body>
+</html>
